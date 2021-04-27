@@ -15,6 +15,8 @@ terraform {
   backend "remote" {
     organization = "jb-smoker"
 
-    workspaces = "aviatrix-techtalk-egress-fqdn"
+    workspaces {
+      name = "aviatrix-techtalk-egress-fqdn"
+    }
   }
 }
