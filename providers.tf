@@ -11,4 +11,10 @@ terraform {
       version = "~> 2.18.0"
     }
   }
+
+  backend "remote" {
+    organization = "jb-smoker"
+
+    workspaces = "aviatrix-techtalk-egress-fqdn"
+  }
 }
