@@ -4,7 +4,7 @@
 # this repository, with the development-group able to author and push pull requests
 
 # In a true org structure, this line would be something like: "fqdn-rules.tf @security-group"
-fqdn-rules.tf @jb-smoker
+/fqdn-rules.tf @jb-smoker
 
 # In a true org structure, I'd suggest there would also be:
 # fqdn-infra.tf @operations-group
