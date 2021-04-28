@@ -1,8 +1,7 @@
 ## Description
 
-> What is this change?
+>Describe the change.
 
 ## Justification
 
-> Why is this change necessary?
-
+>Describe why this change is needed.
