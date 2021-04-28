@@ -12,6 +12,7 @@ terraform {
     }
   }
 
+  # Matching config for terraform cloud
   backend "remote" {
     organization = "jb-smoker"
 
