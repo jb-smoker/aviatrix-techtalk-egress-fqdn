@@ -7,6 +7,8 @@ This repo is the code behind a real-world demo - Secure Internet Egress Filterin
 
 This diagram depicts the Aviatrix infrastructure used in the demo.
 
+<img src="techtalk_vpn_egress.png" style="width:600px;"/>
+
 ## Tools
 
 This demostration featured:

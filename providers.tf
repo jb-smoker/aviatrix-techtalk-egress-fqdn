@@ -1,5 +1,5 @@
 provider "aviatrix" {
-  controller_ip = "techtalk.demo.aviatrixlab.com"
+  controller_ip = "controller.aviatrixfan.cloud"
 }
 
 terraform {
@@ -8,12 +8,13 @@ terraform {
   required_providers {
     aviatrix = {
       source  = "aviatrixsystems/aviatrix"
-      version = "~> 2.18.0"
+      version = "~> 2.19.4"
     }
   }
 
+  # Matching config for terraform cloud
   backend "remote" {
-    organization = "jb-smoker"
+    organization = "hoodbu"
 
     workspaces {
       name = "aviatrix-techtalk-egress-fqdn"
