@@ -1,5 +1,6 @@
 data "aviatrix_gateway" "egress" {
-  gw_name = "avx-egress-gw"
+  # gw_name = "avx-egress-gw"
+  gw_name = "aws-us-east-2-egress-fqdn-agw"
 }
 
 resource "aviatrix_fqdn" "demo" {
